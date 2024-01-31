@@ -1,0 +1,64 @@
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App {
+
+}
+
+.App-header {
+
+}
+
+.App-body {
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;   
+  }
+
+  .dark-container .card {
+    border: white solid 1px;
+  }
+
+  .card {
+    height: auto;
+    width: 320px;
+    margin:20px 0;
+    color: black;
+  }
+
+  .card img {
+    max-width: 100%;
+    width: auto;
+    height: 190px; 
+  }
+
+  .card-image img{
+    max-width: 100%;
+    width: auto;
+  }
+  
+  .modal-show {
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100vw;
+    height: 100vmax;
+    z-index: 99;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+  }
+  .card-contenta{
+    margin-top: 90px;
+    height: 556.92px - 90px;
+    align-items: center;
+  }
+}
+
+.App-footer {
+  .footer-copyright{
+    text-align: center;
+  }
+}
